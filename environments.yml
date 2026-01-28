@@ -1,0 +1,13 @@
+# Este archivo lista las librerias de pyton_pro (En el environment utilizado: dataanalyst_environment)
+
+ENVIRONMENTS:
+
+Name: datanalyst_environment
+Channels:
+  - conda-forge
+Dependencies:
+  - python=3.11
+  - pandas
+Activación: conda env create -f environment.yml
+  conda activate datanalyst_environment
+Desactivación: conda deactivate dataanalyst_environment

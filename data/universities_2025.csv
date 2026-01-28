@@ -1,0 +1,11 @@
+carrera,coste_medio_anual_usd,nivel_empleabilidad,nivel_dificultad,años_estudio,posible_online,nota_corte_media_0_100
+Medicina,18000,Muy alta,Muy alta,6,No,92
+Ciencias_Computacionales,12000,Muy alta,Alta,4,Sí,85
+Ingeniería_de_Software,12000,Muy alta,Alta,4,Sí,83
+Administración_y_Dirección_de_Empresas,15000,Alta,Media,4,Sí,75
+Ciencia_de_Datos_e_Inteligencia_Artificial,13000,Muy alta,Alta,4,Sí,88
+Ingeniería_Mecánica,14000,Alta,Muy alta,4,Parcial,80
+Ingeniería_Eléctrica,14000,Alta,Muy alta,4,Parcial,82
+Enfermería,10000,Muy alta,Media,4,Parcial,78
+Ciberseguridad,11000,Muy alta,Media,4,Sí,76
+Economía,11000,Alta,Media,4,Sí,72
