@@ -38,7 +38,52 @@ Se busca realizar este análisis usando únicamente **estructuras nativas de Pyt
 
 ---
 
-## 4. Arquitectura del Proyecto
+## 4. Requisitos del sistema
+
+Python 3.10 o superior
+
+Anaconda / Miniconda (recomendado)
+
+Librerías Necesarias
+
+pandas
+
+pathlib (incluida en Python estándar)
+
+Todas las dependencias están definidas en el archivo:
+
+environment.yml
+
+## 5. Creación del entorno
+
+Crear el entorno de trabajo con Conda:
+
+conda env create -f environment.yml
+conda activate business_intelligence_universities
+
+## 6. Ejecución del proyecto
+
+El archivo principal que debe ejecutarse es:
+
+src/analysis_pandas.py
+
+
+Desde la raíz del proyecto, ejecutar:
+
+python src/analysis_pandas.py
+
+Al ejecutar el script:
+
+Se cargan los datos desde data/universities_2025.csv
+
+Se realiza el análisis de las universidades
+
+Se genera automáticamente el archivo:
+
+reports/report.txt
+
+
+## 8. Arquitectura del Proyecto
 
 ```plaintext
 business_intelligence_universities/
